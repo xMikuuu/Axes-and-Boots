@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Magician : Shop
+public class Weaponsmith : Shop
 {
 
 }

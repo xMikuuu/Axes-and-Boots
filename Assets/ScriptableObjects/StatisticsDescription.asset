@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fb4c842199f66408610ca93fb53ccc, type: 3}
+  m_Name: StatisticsDescription
+  m_EditorClassIdentifier: 
+  strengthDescription: Unlocks new 2-hand weapons weapons, deal more damage with
+    them, take less damage from them
+  agilityDescription: Unlocks new bows and one-hand swords, deal more damage with
+    them, take less damage from them
+  intelligenceDescription: Unlocks new spells and staffs, deal more magic damage,
+    take less damage from magic attacks
+  vitalityDescription: More health
+  charismaDescription: More gold for winning arena fights
+  wisdomDescription: More experience for winning arena fights

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db2dee815b0a244b8ef85df81f0db7, type: 3}
   m_Name: Mage
   m_EditorClassIdentifier: 
-  professionName: 
+  professionName: Mage
   starterStatistics:
     strength: 3
     agility: 4

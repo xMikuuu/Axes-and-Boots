@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 733, y: -229}
+  m_AnchoredPosition: {x: 700, y: -200}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &442182639
@@ -626,21 +626,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1513462723}
     m_Modifications:
-    - target: {fileID: 1379017104498811178, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 846548550}
-    - target: {fileID: 1379017104498811178, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitShop
-      objectReference: {fileID: 0}
     - target: {fileID: 2084962744464735868, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
       propertyPath: m_Name
       value: WeaponsmithShop
       objectReference: {fileID: 0}
-    - target: {fileID: 6144589011824047679, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
-      propertyPath: m_text
-      value: Hello im a weaponsmith :O
+    - target: {fileID: 4007862984565923720, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
       propertyPath: m_Pivot.x
@@ -684,7 +676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.18859
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
       propertyPath: m_LocalRotation.w
@@ -708,7 +700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.864716
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: a17507d76c526fc4abdfc1d80e6bb480, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -751,21 +743,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1513462723}
     m_Modifications:
-    - target: {fileID: 1379017104498811178, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 891083807}
-    - target: {fileID: 1379017104498811178, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitShop
-      objectReference: {fileID: 0}
     - target: {fileID: 2084962744464735868, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
       propertyPath: m_Name
       value: AlchemistShop
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144589011824047679, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
-      propertyPath: m_text
-      value: Hello im a alchemist :O
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
       propertyPath: m_Pivot.x
@@ -809,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.18859
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
       propertyPath: m_LocalRotation.w
@@ -833,7 +813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.864716
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 06b941a320f59d648a13d4cbab57d852, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1449,7 +1429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -709, y: -229}
+  m_AnchoredPosition: {x: -700, y: -200}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704311372
@@ -1554,21 +1534,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1513462723}
     m_Modifications:
-    - target: {fileID: 1379017104498811178, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1725661464}
-    - target: {fileID: 1379017104498811178, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitShop
-      objectReference: {fileID: 0}
     - target: {fileID: 2084962744464735868, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
       propertyPath: m_Name
       value: ArmorsmithShop
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144589011824047679, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
-      propertyPath: m_text
-      value: Hello im a armorsmith :O
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
       propertyPath: m_Pivot.x
@@ -1612,7 +1580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.18859
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1636,7 +1604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.864716
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 0b7a0451d61c88548b3bc35b570cdeaf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1707,7 +1675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 733, y: -408}
+  m_AnchoredPosition: {x: 700, y: -400}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881937315
@@ -1981,7 +1949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -709, y: -408}
+  m_AnchoredPosition: {x: -700, y: -400}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028850529
@@ -2086,17 +2054,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1513462723}
     m_Modifications:
-    - target: {fileID: 1379017104498811178, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1393802902017328289}
-    - target: {fileID: 1379017104498811178, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitShop
-      objectReference: {fileID: 0}
     - target: {fileID: 2084962744464735868, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
       propertyPath: m_Name
       value: MagicianShop
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007862984565923720, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
       propertyPath: m_Pivot.x
@@ -2140,7 +2104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.18859
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2164,7 +2128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -98.864716
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 7243593638096024061, guid: 3e3810c819daf464598a5117724bdf83, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

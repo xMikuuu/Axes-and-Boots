@@ -7,6 +7,6 @@ using UnityEngine;
 
 public class Profession : ScriptableObject
 {
-    [SerializeField] string professionName;
-    [SerializeField] Statistics starterStatistics;
+    [SerializeField] public string professionName;
+    [SerializeField] public Statistics starterStatistics;
 }
